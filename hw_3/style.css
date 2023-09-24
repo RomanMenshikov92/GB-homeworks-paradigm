@@ -1,0 +1,39 @@
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+.x {
+  color: blue;
+  font-size: 80px;
+}
+.o {
+  color: red;
+  font-size: 80px;
+}
+.win {
+  background-color: yellow;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+}
+#reset {
+  margin-top: 50px;
+  padding: 20px 30px;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: rgb(190, 190, 190);
+  border: none;
+  border-radius: 50px;
+}

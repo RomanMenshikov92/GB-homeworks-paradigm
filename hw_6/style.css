@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: beige;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
